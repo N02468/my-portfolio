@@ -111,7 +111,7 @@ const Home = () => {
               </button>
             </a>
             <div class="whatsapp-container">
-            <a href="#" target="_blank" class="whatsapp-rounded-button">
+            <a href="https://wa.me/923407386534" target="_blank" class="whatsapp-rounded-button">
               <i class="ri-whatsapp-fill"></i>
             </a>
           </div>

@@ -12,7 +12,7 @@ function ContactForm() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://localhost:5000/api/contact', formData);
+      const response = await axios.post('https://my-portfolio-theta-neon-12.vercel.app/api/contact', formData);
       alert(response.data.message);
     } catch (error) {
       alert('Failed to submit form');

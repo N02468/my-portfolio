@@ -14,7 +14,7 @@ const contactRoutes = require('./routes/Contactroute');
 const app = express();
 
 //Middleware
-app.use(cors());
+app.use(cors({origin:'https://my-portfolio-gt98.vercel.app/'}));
 app.use(express.json())
 app.use(bodyParser.json());
 
